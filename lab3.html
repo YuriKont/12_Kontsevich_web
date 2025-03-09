@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+	<meta charset = "UTF-8">
+	<header style =" background-color:purple;">
+	<script type="text/javascript">
+		function play() {
+		function game(number,guess){
+    if (confirm("Сыграем в \"Угадай число\"?"))
+        if (prompt(guess) == number)
+            alert("Ты выиграл!")
+        else alert("Очень жаль... Ответ был " + number)
+}
+guess = Math.round(Math.random() * 100);
+guessing = "Введи число от 1 до 100! Подсказочка: ответ близок к " + (guess + 3)
+game(guess,guessing)
+}
+</script>
+		<h1>Фильмография</h1>
+	</header>
+	<style>
+		.block1 {
+		border: 4px solid orange;
+		background: green;
+		padding: 8px;
+		}
+		.block2 {
+		border: 4px solid orange;
+		background: purple;
+		padding: 8px;
+		}
+		.block3 {
+		border: 4px solid orange;
+		background: green;
+		padding: 8px;
+		}
+		.block4 {
+		border: 4px solid orange;
+		background: purple;
+		padding: 8px;
+		}
+	</style>
+</head>
+<title> Фильмография </title>
+	<body style = "background-color:orange;">
+	<button onClick = "play()">Сыграем?</button>
+		<div class = "block1">
+			<strong>Различные факты</strong>
+			<ul>
+				<li>Муравьи спят 250 раз в день.</li>
+				<li>Морская звезда может вывернуть свой желудок наизнанку.u</li>
+				<li>Колибри не могyт ходить.</li>
+				<li>Пингвины могyт подпрыгивать в высотy больше, чем на полтора метра.</li>
+				<li>Ленивцы проводят 75% жизни во сне.</li>
+			</ul>
+		</div>
+		<div class = "block2">
+			<strong>Обзор фильма "Sonic The Hedgehog 3"</strong><img src="https://m.media-amazon.com/images/M/MV5BMjZjNjE5NDEtOWJjYS00Mjk2LWI1ZDYtOWI1ZWI3MzRjM2UzXkEyXkFqcGc@._V1_.jpg" height=334 width=220 align=right>
+			<p>Sonic The Hedgehog 3 - это один из лучших фильмов по видео-игре, который скорее всего существует.
+			Хорошая адаптация оригинальной игры(Sonic Adventure 2, а не Sonic 3 & Knuckles) и также достаточно оригинальности, чтобы фанаты игр не сказали что это полная копия.</p>
+			<p>Музыка хорошая, очень часто можно услашыть тему Live and Learn - основную тему оригинальной игры,а в конце играет оригинальная версия этой песни.</p>
+			<p>С бюджетом в 122 миллиона долларов, анимации персонажей выглядят очень хорошо. Детали, мимика и движения были реалистичными.</p>
+			<p>Сюжет фильма рассказывает про ежа Шедоу: пришельца с грустным прошлым. 
+			Он хочет отомстить человечеству за убийство его единственного друга на Земле, вместе с Джеральдом Роботником - прародителем этого человека. 
+			Они собираются использовать Пушку Затмения, последнее изобретение Джеральда, чтобы выстрелить в Землю и уничтожить её.
+			Соник и его друзья должны их остановить,при этом объединившись с их старым врагом, доктором Айво Роботником, или Эггманом. Позже Эггман предаст Соника и присоединится к Джеральду, но поняв, что они на самом деле планируют, снова поможет Сонику.</p>
+			<p>В итоге, мне фильм понравился. Один из лучших видео игровых фильмов, который я видел.</p>
+			<p>Я бы поставил 9/10</p>
+			<p>--------------------</p>
+		</div>
+		<div class = "block3">
+			<strong>Цитаты из фильма Властелин колец: Две крепости</strong>
+			<ul>
+			<li>Это не сборище безмозглых орков, это Урук-хаи. У них крепкие латы и прочные щиты.</li>
+			<li>Энтам не сдержать такую бурю. Мы должны делать привычное дело. По ветвям и ветер...</li>
+			<li>Меня измотала бесконечная погоня. Гномов ценят не за выносливость, а за скорость. Мы незаменимы на коротких бросках.</li>
+		</div>
+		<div class = "block4">
+			<table>
+			<col style = "background:purple;"></col>
+			<col span = "2" style = "background:red;"></col>
+			<col span = "3" style = "background:purple;"></col>
+				<caption style = "background-color:purple;"> Манчестер Юнайтед </caption>
+				<thead>
+					<tr>
+						<th colspan ="3">Дата</th>
+						<th>Соперник</th>
+						<th>Счёт</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th colspan = "3">02.02.2025</th>
+						<th>Кристал Пэлас</th>
+						<th>0:2</th>
+					</tr>
+					<tr>
+						<th colspan = "3">07.02.2025</th>
+						<th>Лестер</th>
+						<th>2:1</th>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan = "3">16.02.2025</th>
+						<th>Тоттенхэм</th>
+						<th>0:1</th>
+					</tr>
+				</tfoot>
+		</div>
+
+	</body>
